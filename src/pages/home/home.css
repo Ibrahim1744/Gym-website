@@ -1,0 +1,88 @@
+@media (max-width:1024px)
+{
+  .main-header{
+    height: fit-content;
+    padding: 12rem 0;
+  }
+  .main-header-container{
+    gap: 0;
+  }
+  .main-header-circle{
+    height: 16rem;
+    width: 16rem;
+  }
+   .programs-wrapper{
+    grid-template-columns: 1fr 1fr;
+   }
+   .values-container{
+    grid-template-columns: 1fr;
+    gap: 4rem;
+   }
+   .values-wrapper{
+    gap: 4rem 3rem;
+   }
+   .faqs-wrapper{
+    grid-template-columns: 1fr;
+   }
+   .testimonials{
+    width: 75%;
+   }
+   .footer-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+   }
+}
+
+
+@media (max-width:600px) {
+  .main-header{
+    margin-top: 0;
+    padding: 12rem 0 0;
+    height: 100vh;
+  }
+  .main-header-circle,  .main-header-img
+{
+  display: none;
+}
+.main-header-container{
+  grid-template-columns: 1fr;
+}
+.main-header-left{
+text-align: center;
+}
+.programs-wrapper{
+  grid-template-columns: 1fr;
+  margin-top: 3rem;
+}
+.prorams-program{
+  width: 84%;
+  margin: 0 auto;
+}
+.values-wrapper{
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+.card.values-value{
+  width: 84%;
+  margin: 0 auto;
+}
+.faqs-wrapper{
+  gap: 1rem;
+}
+.testimonials{
+  width: 100%;
+}
+footer{
+  margin-top: 7rem;
+}
+.footer-container{
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+.footer-container article{
+align-items: center;
+}
+.footer-container article p{
+  text-align: center;
+}
+}
